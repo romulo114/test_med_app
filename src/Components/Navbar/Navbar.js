@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
-  console.log("hello");
   return (
     <header>
       <nav>
@@ -21,7 +20,7 @@ function Navbar() {
             <Link to="/login">Login</Link>
           </li>
           <li>
-            <Link to="/sign">Sign Up</Link>
+            <Link to="/sign_up">Sign Up</Link>
           </li>
         </ul>
       </nav>

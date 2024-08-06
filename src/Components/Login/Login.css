@@ -34,9 +34,21 @@ header {
     margin-bottom: 20px;
 }
 
+.login-form-container h1{
+    margin-bottom: 50px;
+}
+
 .form-container p {
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+.login-form-container p{
+    margin-bottom: 50px;
+}
+
+.login-validation {
+    margin-bottom: 10px!important;
 }
 
 .form-container a {
@@ -61,7 +73,7 @@ header {
     margin: 0 0 14px;
 }
 
-.button-container {
+.login-button-container {
     display: flex;
     justify-content: flex-end;
 }

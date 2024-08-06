@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="../Navbar/Navbar.css" />
+    <link rel="stylesheet" href="./Login.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../Landing_Page/LandingPage.html">Home</a></li>
+          <li><a href="#">Appointments</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="../Login/Login.html">Login</a></li>
+          <li><a href="../Sign_Up/Sign_Up.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="login">
+        <div class="image-container">
+          <img src="../assets/images/doctor_login.png" alt="Doctor" />
+        </div>
+        <div class="form-container">
+          <h1>Please Login</h1>
+          <p>
+            Are you a new member?
+            <a href="../Sign_Up/Sign_Up.html">Sign Up Here</a>
+          </p>
+          <form>
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+            <div class="button-container">
+              <button type="submit" class="submit">Login</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

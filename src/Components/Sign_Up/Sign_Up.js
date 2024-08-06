@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Sign_Up.css";
 
-const Sign_Up = () => {
+const SignUp = () => {
   const [role, setRole] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -169,4 +169,4 @@ const Sign_Up = () => {
   );
 };
 
-export default Sign_Up;
+export default SignUp;
